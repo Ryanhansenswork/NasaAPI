@@ -1,0 +1,35 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background: black;
+}
+h1{
+  background: radial-gradient(magenta, skyblue);
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.nasa{
+  display: flex;
+  justify-content: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+body > h2{
+  text-decoration: antiquewhite;
+  border: 3px, solid, red;
+}
+h3{
+  text-decoration: white;
+}
+
+
+
