@@ -10,7 +10,7 @@ function getFetch(){
       .then(res => res.json()) 
       .then(data => {
         console.log(data)
-        document.querySelector('img').src = data.hdurl
+        document.querySelector('.yo').src = data.hdurl
         document.querySelector('h3').innerText = data.explanation
         document.querySelector('h2').innerText = data.title
       })
