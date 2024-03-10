@@ -6,23 +6,33 @@
 
 body{
   background: rgba(25, 48, 80, 0.8);
+  font-family: "Montserrat";
 }
 h1{
-  background: radial-gradient(magenta, skyblue);
+  /*background: rgb(75, 122, 210);*/
   display: flex;
   justify-content: center;
   width: auto;
+  text-decoration: underline;
+  ;
 }
 .nasa{
   display: flex;
   justify-content: center;
 }
-img{
+.yodude{
   display: block;
   margin: 0 auto;
   max-width: 100%;
   max-height: 800px;
 }
+.yo{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 800px;
+}
+
 h2{
  display: flex;
  justify-content: center;
@@ -33,5 +43,59 @@ h3{
   justify-content: center;
 }
 
+h4{
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+}
 
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 150vh;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  height: 100%;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff4500;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}
 
