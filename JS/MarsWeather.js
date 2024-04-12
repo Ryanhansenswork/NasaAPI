@@ -35,6 +35,13 @@ document.getElementById('getWeatherBtn').addEventListener('click', function() {
         .catch(error => console.error('Error fetching data:', error));
 });
 
+//button
+const btn = document.querySelector('.btn');
 
-
+btn.addEventListener('click', () =>
+{
+    btn.style.backgroundColor = '#ff4500';
+    btn.style.boxShadow = '0 0 40px #ff4500';
+    btn.style.transition = '.5s ease';
+});
 
