@@ -93,9 +93,26 @@ body {
 .nav-links li a:hover {
   color: #ff4500;
 }
+a:is(:link, :active, :visited).nav-links{
+  color: #ff4500;
+}
 
 .content {
   flex: 1; /* Take remaining space */
   padding: 20px;
 }
 
+.btn{
+  background: #7d2ae8;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 8px;
+  margin-left: 5px;
+  box-shadow: 0 0 40px #7d2ae8;
+  color: #fff;
+  letter-spacing: .7px;
+}
+.btn:hover{
+  background: rgba(37, 168, 196, 0.8);
+  box-shadow: 0 0 40px rgba(37, 168, 196, 0.8);
+}
